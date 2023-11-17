@@ -24,6 +24,7 @@ You can still enable them by adding some lines of text in per-game settings .ini
 > [PostProcessing]
 > 
 > StageCount = 1
+> 
 > Enabled = true
 >
 >[PostProcessing/Stage1]
@@ -65,6 +66,7 @@ Example:
 > [PostProcessing]
 > 
 > StageCount = 3
+> 
 > Enabled = true
 >
 > [PostProcessing/Stage1]
