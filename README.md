@@ -9,9 +9,14 @@ You can still enable them by adding some lines of text in per-game settings .ini
 # What you need?
 
 1. Latest beta version (v0.1-5997 as of writing) from the [official website](https://www.duckstation.org/android/).
-2. A file manager with text editor that can access Android/Data folders (e.g. [X-plore](https://play.google.com/store/apps/details?id=com.lonelycatgames.Xplore&hl=it&gl=US))
+2. A file manager with text editor that can access Android/data folders (e.g. [X-plore](https://play.google.com/store/apps/details?id=com.lonelycatgames.Xplore&hl=it&gl=US))
 
-# 
+# Guide
+
+1. Open DuckStation, long tap a game and select **Game Properties**, take note of the **Serial** in **Summary** tab.
+2. Change any settings and go back to save (Doing this will create the game .ini file).
+3. Open your file manager and navigate to: **Android/data/com.github.stenzek.duckstation/files/gamesettings**. Here you will find your per-game settings files.
+4. Identify your game using the **Serial** number in step 1, open and edit the **.ini** file ad paste these lines:
 
 [PostProcessing]
 StageCount = 1
@@ -19,13 +24,54 @@ Enabled = true
 
 [PostProcessing/Stage1]
 
-[PostProcessing/Stage2]
-
-[PostProcessing/Stage3]
-
-[PostProcessing/Stage4]
+5. Select the desired shader in the following list and paste it under **[PostProcessing/Stage1]**, save and close.
 
 # Shaders List
+
+ShaderName = Cccalibrator
+
+ShaderName = crt-lottes
+
+ShaderName = dolphinfx/bloom
+
+ShaderName = dolphinfx/celshading
+
+ShaderName = dolphinfx/scanlines
+
+ShaderName = simple-brightness
+
+ShaderName = simple-flip
+
+ShaderName = simple-gamma
+
+ShaderName = simple-sharpen
+
+ShaderName = Daltonize
+
+ShaderName = Deband
+
+ShaderName = LUT
+
+# Chain Multiple Shaders
+
+To chain multiple shaders increase **StageCount** number 
+
+Example:
+
+> [PostProcessing]
+> StageCount = 3
+> Enabled = true
+>
+> [PostProcessing/Stage1]
+> ShaderName = dolphinfx/scanlines
+>
+> [PostProcessing/Stage2]
+> ShaderName = simple-brightness
+>
+> [PostProcessing/Stage3]
+> ShaderName = simple-flip
+
+# Shaders Advanced Configuration
 
 ### CCCalibrator
    
