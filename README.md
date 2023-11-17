@@ -27,6 +27,7 @@ You can still enable them by adding some lines of text in per-game settings .ini
 > 
 > Enabled = true
 >
+> 
 >[PostProcessing/Stage1]
 
 5. Select the desired shader in the following list and paste it under **[PostProcessing/Stage1]**, save and close.
@@ -59,7 +60,7 @@ ShaderName = LUT
 
 # Chain Multiple Shaders
 
-To chain multiple shaders increase **StageCount** number 
+To chain multiple shaders increase **StageCount** number and create additional **[PostProcessing/Stage]** lines with relative increasing number.
 
 Example:
 
@@ -69,6 +70,7 @@ Example:
 > 
 > Enabled = true
 >
+> 
 > [PostProcessing/Stage1]
 > ShaderName = dolphinfx/scanlines
 >
@@ -243,14 +245,6 @@ GAMMA_IN = 2.2
 
 GAMMA_OUT = 2.2
 > #Gamma Out Range: 0.1 to 10
-
-### Simple Sharpen
-
-ShaderName = simple-sharpen
-
-### ReShade Daltonized
-
-ShaderName = Daltonize
 
 ### ReShade Deband
 
