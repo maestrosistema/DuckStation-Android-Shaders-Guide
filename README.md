@@ -14,15 +14,18 @@ You can still enable them by adding some lines of text in per-game settings .ini
 # Guide
 
 1. Open DuckStation, long tap a game and select **Game Properties**, take note of the **Serial** in **Summary** tab.
+   
 2. Change any settings and go back to save (Doing this will create the game .ini file).
+   
 3. Open your file manager and navigate to: **Android/data/com.github.stenzek.duckstation/files/gamesettings**. Here you will find your per-game settings files.
+   
 4. Identify your game using the **Serial** number in step 1, open and edit the **.ini** file ad paste these lines:
 
-[PostProcessing]
-StageCount = 1
-Enabled = true
-
-[PostProcessing/Stage1]
+> [PostProcessing]
+> StageCount = 1
+> Enabled = true
+>
+>[PostProcessing/Stage1]
 
 5. Select the desired shader in the following list and paste it under **[PostProcessing/Stage1]**, save and close.
 
