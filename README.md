@@ -23,10 +23,9 @@ Enabled = true
 
 # Shaders List
 
-## - CCCalibrator
+### CCCalibrator
    
 ShaderName = Cccalibrator
-
 
 LUMINANCE = 1.2
 
@@ -56,49 +55,63 @@ SATURATION = 50
 
 *Saturation Range: 0 to 100*
 
-- CRT-Lottes
+### CRT-Lottes
+
 ShaderName = crt-lottes
 
 hardScan = -8
-# Scanline Weight Range: -20 to 0
+
+*Scanline Weight Range: -20 to 0*
 
 hardPix = -3
-# Scanline Scale Range: -20 to 0
+
+*Scanline Scale Range: -20 to 0*
 
 warpX = 0.031
-# Screen Warp X Range: 0.000 to 0.125
+
+*Screen Warp X Range: 0.000 to 0.125*
 
 warpY = 0.041
-# Screen Warp Y Range: 0.000 to 0.125
+
+*Screen Warp Y Range: 0.000 to 0.125*
 
 maskDark = 0.5
-# Mask Dark Range: 0.0 to 2
+
+*Mask Dark Range: 0.0 to 2*
 
 maskLight = 1.5
-# Mask Light Range: 0.0 to 2
+
+*Mask Light Range: 0.0 to 2*
 
 shadowMask = 3
-# Shadow Mask Type Range: 0 to 4
+
+*Shadow Mask Type Range: 0 to 4*
 
 brightBoost = 1
-# Brightness Boost Range: 0.0 to 2
+
+*Brightness Boost Range: 0.0 to 2*
 
 hardBloomPix = -1.5
-# Bloom Soft X Range: -2.0 to -0.5
+
+*Bloom Soft X Range: -2.0 to -0.5*
 
 hardBloomScan = -2
-# Bloom Soft Y Range: -4.0 to -1
+
+*Bloom Soft Y Range: -4.0 to -1*
 
 bloomAmount = 0.15
-# Bloom Amount Range: 0.0 to 1
+
+*Bloom Amount Range: 0.0 to 1*
 
 shape = 2
-# Filter Kernel Shape Range: 1.0 to 10
+
+*Filter Kernel Shape Range: 1.0 to 10*
 
 scaleInLinearGamma = true
-# Scale in Linear Gamma Range: true or false
 
-# Bloom
+*Scale in Linear Gamma Range: true or false*
+
+### Bloom
 ShaderName = dolphinfx/bloom
 
 A_BLOOM_TYPE = 0
