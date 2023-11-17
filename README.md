@@ -9,7 +9,7 @@ You can still enable them by adding some lines of text in per-game settings .ini
 # What you need?
 
 1. Latest beta version (v0.1-5997 as of writing) from the [official website](https://www.duckstation.org/android/).
-2. A file manager with text editor that can access Android/data folders (e.g. [X-plore](https://play.google.com/store/apps/details?id=com.lonelycatgames.Xplore&hl=it&gl=US))
+2. A file manager with text editor that can access Android/data folder (e.g. [X-plore](https://play.google.com/store/apps/details?id=com.lonelycatgames.Xplore&hl=it&gl=US))
 
 # Guide
 
@@ -17,11 +17,12 @@ You can still enable them by adding some lines of text in per-game settings .ini
    
 2. Change any settings and go back to save (Doing this will create the game .ini file).
    
-3. Open your file manager and navigate to: **Android/data/com.github.stenzek.duckstation/files/gamesettings**. Here you will find your per-game settings files.
+3. Open your file manager and navigate to: **Android/data/com.github.stenzek.duckstation/files/gamesettings** (Here you will find your per-game settings files).
    
-4. Identify your game using the **Serial** number in step 1, open and edit the **.ini** file ad paste these lines:
+4. Identify your game using the **Serial** number in Step 1, open and edit the **.ini** file ad paste these lines:
 
 > [PostProcessing]
+> 
 > StageCount = 1
 > Enabled = true
 >
@@ -62,6 +63,7 @@ To chain multiple shaders increase **StageCount** number
 Example:
 
 > [PostProcessing]
+> 
 > StageCount = 3
 > Enabled = true
 >
