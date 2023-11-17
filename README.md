@@ -1,11 +1,13 @@
-# DuckStation Android Shaders Guide
+# DuckStation Android Post-Processing Shaders Guide
 
-This is a guide to get post-processing shaders working on the Android version of DuckStation. Stenzek ported this feature on the Android version, but didn't implemented it in the settings GUI for some reason. You can still enable them by adding some lines of text in per game settings .ini files. 
+This is a guide to get post-processing shaders working on the Android version of DuckStation. Stenzek ported this feature on the Android version, but didn't implemented it (yet) in the settings GUI for some reason. You can still enable them by adding some lines of text in per game settings .ini files. 
 
 # What you need?
 
 1. Latest beta version (v0.1-5997 as of writing) from the [official website](https://www.duckstation.org/android/).
 2. A file manager with text editor that can access Android/Data folders (e.g. [X-plore](https://play.google.com/store/apps/details?id=com.lonelycatgames.Xplore&hl=it&gl=US))
+
+# 
 
 [PostProcessing]
 StageCount = 1
@@ -21,31 +23,31 @@ Enabled = true
 
 # Shaders List
 
-# CCCalibrator
+- CCCalibrator
 ShaderName = Cccalibrator
 
 LUMINANCE = 1.2
-# Luminance(Y) Range: 0.0 to 3
+*Luminance(Y) Range: 0.0 to 3*
 
 ORANGECYAN = 1.2
-# Orange-Cyan(I) Range: 0.0 to 3
+*Orange-Cyan(I) Range: 0.0 to 3*
 
 MAGENTAGREEN = 1.2
-# Magenta-Green(Q) Range: 0.0 to 3
+*Magenta-Green(Q) Range: 0.0 to 3*
 
 BLACK = 10
-# Black Range: 0 to 255
+*Black Range: 0 to 255*
 
 WHITE = 240
-# White Range: o to 255
+*White Range: o to 255*
 
 NOISE = 10
-# Noise Range: 0 to 50
+*Noise Range: 0 to 50*
 
 SATURATION = 50
-# Saturation Range: 0 to 100
+*Saturation Range: 0 to 100*
 
-# CRT-Lottes
+- CRT-Lottes
 ShaderName = crt-lottes
 
 hardScan = -8
