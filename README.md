@@ -33,28 +33,24 @@ ShaderName = Cccalibrator
 
 LUMINANCE = 1.2
 > #Luminance(Y) Range: 0.0 to 3
+
 ORANGECYAN = 1.2
-> #Orange-Cyan(I) Range: 0.0 to 3*
+> #Orange-Cyan(I) Range: 0.0 to 3
 
 MAGENTAGREEN = 1.2
-
-*Magenta-Green(Q) Range: 0.0 to 3*
+> #Magenta-Green(Q) Range: 0.0 to 3
 
 BLACK = 10
-
-*Black Range: 0 to 255*
+> #Black Range: 0 to 255
 
 WHITE = 240
-
-*White Range: o to 255*
+> #White Range: o to 255
 
 NOISE = 10
-
-*Noise Range: 0 to 50*
+> #Noise Range: 0 to 50
 
 SATURATION = 50
-
-*Saturation Range: 0 to 100*
+> #Saturation Range: 0 to 100
 
 ### CRT-Lottes
 
