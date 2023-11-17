@@ -23,7 +23,7 @@ Enabled = true
 
 # Shaders List
 
-##- CCCalibrator
+## - CCCalibrator
    
 ShaderName = Cccalibrator
 
