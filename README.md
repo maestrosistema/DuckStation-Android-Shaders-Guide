@@ -1,6 +1,10 @@
 # DuckStation Android Post-Processing Shaders Guide
 
-This is a guide to get post-processing shaders working on the Android version of DuckStation. Stenzek ported this feature on the Android version, but didn't implemented it (yet) in the settings GUI for some reason. You can still enable them by adding some lines of text in per-game settings .ini files. 
+This is a guide to get post-processing shaders working on the Android version of DuckStation. 
+
+Stenzek ported this feature on the Android version, but didn't implemented it (yet) in the settings GUI for some reason. 
+
+You can still enable them by adding some lines of text in per-game settings .ini files. 
 
 # What you need?
 
@@ -29,7 +33,7 @@ ShaderName = Cccalibrator
 
 LUMINANCE = 1.2
 
-*Luminance(Y) Range: 0.0 to 3*
+> Luminance(Y) Range: 0.0 to 3
 
 ORANGECYAN = 1.2
 
