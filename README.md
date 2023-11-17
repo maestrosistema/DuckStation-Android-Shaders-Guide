@@ -32,8 +32,7 @@ Enabled = true
 ShaderName = Cccalibrator
 
 LUMINANCE = 1.2
-
-> Luminance(Y) Range: 0.0 to 3
+> #Luminance(Y) Range: 0.0 to 3
 
 ORANGECYAN = 1.2
 
