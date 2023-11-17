@@ -23,9 +23,10 @@ Enabled = true
 
 # Shaders List
 
-- CCCalibrator
+**- CCCalibrator**
    
 ShaderName = Cccalibrator
+
 
 LUMINANCE = 1.2
 
