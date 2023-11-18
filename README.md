@@ -78,7 +78,7 @@ Example:
 
 # Shaders Advanced Configuration
 
-Use this shader list instead if you want to customize them. Each shader has it's own editable parameters, there's a comment under each setting with relative minimum/maximum range. (You'll also find the list in the **shaders_list_advanced.txt** file for easiest copy/paste)
+Use this shader list instead if you want to customize them. Each shader has it's own editable parameters, there's a comment under each setting with relative minimum/maximum range. (You'll also find the list in the ![My File](shaders_list_advanced.txt) file for easiest copy/paste)
 
 Example of celshading shader with thicker edges:
 
