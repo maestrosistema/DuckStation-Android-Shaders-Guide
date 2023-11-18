@@ -1,5 +1,8 @@
 # DuckStation Android Post-Processing Shaders Guide
 
+![My Image](example.jpg)
+> Example of Final Fantasy IX with crt-lottes shader
+
 This is a guide to get post-processing shaders working on the Android version of DuckStation. 
 
 Stenzek ported this feature on the Android version, but didn't implemented it (yet) in the settings GUI for some reason. 
