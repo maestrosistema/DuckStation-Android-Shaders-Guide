@@ -19,7 +19,7 @@ You can still enable them by adding some lines of text in per-game settings .ini
    
 3. Open your file manager and navigate to: **Android/data/com.github.stenzek.duckstation/files/gamesettings** (Here you will find your per-game settings files).
    
-4. Identify your game using the **Serial** number in Step 1, open and edit the **.ini** file ad paste these lines:
+4. Identify your game using the **Serial** number in Step 1, open and edit the **.ini** file with text editor and paste these lines:
 
 > [PostProcessing]
 > 
@@ -81,6 +81,8 @@ Example:
 > ShaderName = simple-flip
 
 # Shaders Advanced Configuration
+
+You can edit shaders parameters 
 
 ### CCCalibrator
    
@@ -283,3 +285,6 @@ fLUT_AmountChroma = 1
 
 fLUT_AmountLuma = 1
 > #LUT Lum Amount Range: 0.00 to 1
+
+# Special Thanks 
+Stenzek and every DuckStation contributors
