@@ -34,9 +34,9 @@ You can still enable them by adding some lines of text in per-game settings .ini
 
 5. Select the desired shader in the following list and paste it under **[PostProcessing/Stage1]**, save and close.
 
-> **NOTE: Some shaders only work with Vulkan renderer!
+> **NOTE: Some shaders only work with Vulkan renderer!**
 >
-> Others, like crt-lottes, are CPU intensive, so you'll need a good device!**
+> **Others, like crt-lottes, are CPU intensive, so you'll need a good device!**
 
 # Shaders List
 
@@ -66,7 +66,7 @@ ShaderName = LUT
 
 # Chain Multiple Shaders
 
-To chain multiple shaders increase **StageCount** number and create additional **[PostProcessing/Stage*]** lines with relative increasing number. Paste a different shader under each **[PostProcessing/Stage*]**.
+To chain multiple shaders increase **StageCount** number and create additional **[PostProcessing/Stage#]** lines with relative increasing number. Paste a different shader under each **[PostProcessing/Stage#]**.
 
 Example:
 
