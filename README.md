@@ -68,21 +68,11 @@ To chain multiple shaders increase **StageCount** number and create additional *
 
 Example:
 
-> [PostProcessing]
-> 
-> StageCount = 3
-> 
-> Enabled = true
+> [PostProcessing] <br>StageCount = 3 <br>Enabled = true
+> [PostProcessing/Stage1] <br>ShaderName = dolphinfx/scanlines
+>[PostProcessing/Stage2] <br>ShaderName = simple-brightness
 >
-> 
-> [PostProcessing/Stage1]
-> ShaderName = dolphinfx/scanlines
->
-> [PostProcessing/Stage2]
-> ShaderName = simple-brightness
->
-> [PostProcessing/Stage3]
-> ShaderName = simple-flip
+> [PostProcessing/Stage3] <br>ShaderName = simple-flip
 
 # Shaders Advanced Configuration
 
@@ -90,20 +80,9 @@ Use this shader list instead if you want to personalize them. Each shader has it
 
 Example of celshading shader with thicker edges:
 
-> [PostProcessing]
-> 
-> StageCount = 1
-> 
-> Enabled = true
+> [PostProcessing] <br>StageCount = 1 <br>Enabled = true
 >
->[PostProcessing/Stage1]
->ShaderName = dolphinfx/celshading
->A_EDGE_STRENGTH=1
->B_EDGE_FILTER=0.6
->C_EDGE_THICKNESS=1.75
->D_PALETTE_TYPE=1
->E_YUV_LUMA=0
->G_COLOR_ROUNDING=1
+>[PostProcessing/Stage1] <br>ShaderName = dolphinfx/celshading <br>A_EDGE_STRENGTH=1 <br>B_EDGE_FILTER=0.6 <br>C_EDGE_THICKNESS=1.75 <br>D_PALETTE_TYPE=1 <br>E_YUV_LUMA=0 <br>G_COLOR_ROUNDING=1
 
 ### CCCalibrator
    
