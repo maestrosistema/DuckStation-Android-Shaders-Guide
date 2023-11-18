@@ -32,6 +32,8 @@ You can still enable them by adding some lines of text in per-game settings .ini
 
 5. Select the desired shader in the following list and paste it under **[PostProcessing/Stage1]**, save and close.
 
+> **NOTE: Some shaders only work with Vulkan renderer!**
+
 # Shaders List
 
 ShaderName = Cccalibrator
