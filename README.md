@@ -100,8 +100,7 @@ Example of celshading shader with thicker edges:
 > Enabled = true
 >
 >[PostProcessing/Stage1]
->
->dolphinfx/celshading
+>ShaderName = dolphinfx/celshading
 >A_EDGE_STRENGTH=1
 >B_EDGE_FILTER=0.6
 >C_EDGE_THICKNESS=1.75
