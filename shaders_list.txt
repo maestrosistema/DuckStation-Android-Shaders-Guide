@@ -1,0 +1,89 @@
+// PostProcessing shaders DuckStation Android
+
+---
+
+// Copy following lines at the bottom of your game .ini file
+
+[PostProcessing]
+StageCount = 1
+Enabled = true
+
+[PostProcessing/Stage1]
+ShaderName = 
+
+// Select and copy one of the shader in the list below and paste it after: ShaderName =
+
+// Example to enable scanlines shader:
+
+PostProcessing]
+StageCount = 1
+Enabled = true
+
+[PostProcessing/Stage1]
+ShaderName = dolphinfx/scanlines
+
+// To chain multiple shaders, increase StageCount number and write additional [PostProcessing/Stage*]. Example to enable bloom, cel shading and scanlines:
+
+PostProcessing]
+StageCount = 3
+Enabled = true
+
+[PostProcessing/Stage1]
+ShaderName = dolphinfx/bloom
+
+[PostProcessing/Stage2]
+ShaderName = dolphinfx/celshading
+
+[PostProcessing/Stage3]
+ShaderName = dolphinfx/scanlines
+
+---
+
+// Shaders list (with default parameters)
+
+// Cccalibrator
+
+Cccalibrator
+
+// CRT - Lottes
+
+crt-lottes
+
+// Bloom
+
+dolphinfx/bloom
+
+// Cel Shading
+
+dolphinfx/celshading
+
+// Scalines
+
+dolphinfx/scanlines
+
+// Brightness
+
+simple-brightness
+
+// Flip
+
+simple-flip
+
+// Gamma
+
+simple-gamma
+
+// Sharpen
+
+simple-sharpen
+
+
+
+
+
+
+
+
+
+
+
