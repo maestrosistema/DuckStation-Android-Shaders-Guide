@@ -25,9 +25,9 @@ You can still enable them by adding some lines of text in per-game settings .ini
    
 4. Identify your game using the **Serial** number in Step 1, open and edit the **.ini** file with text editor and paste these lines:
 
-[PostProcessing] <br>StageCount = 1 <br>Enabled = true
-
-[PostProcessing/Stage1]
+> [PostProcessing] <br>StageCount = 1 <br>Enabled = true
+>
+>[PostProcessing/Stage1]
 
 5. Select the desired shader in the following list and paste it under **[PostProcessing/Stage1]**, save and close.
 
