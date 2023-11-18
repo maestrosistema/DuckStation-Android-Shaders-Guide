@@ -12,6 +12,7 @@ You can still enable them by adding some lines of text in per-game settings .ini
 # What you need?
 
 1. Latest beta version (v0.1-5997 as of writing) from the [official website](https://www.duckstation.org/android/).
+
 2. A file manager with text editor that can access Android/data folder (e.g. [X-plore](https://play.google.com/store/apps/details?id=com.lonelycatgames.Xplore&hl=it&gl=US))
 
 # Guide
@@ -88,7 +89,25 @@ Example:
 
 # Shaders Advanced Configuration
 
-You can edit shaders parameters 
+Use this shader list instead if you want to personalize them. Each shader has it's own editable parameters, there's a comment under each setting with relative minimum/maximum range. (You'll also find the list in the **shaders_list_advanced.txt** file for easiest copy/paste)
+
+Example of celshading shader with thicker edges:
+
+> [PostProcessing]
+> 
+> StageCount = 1
+> 
+> Enabled = true
+>
+>[PostProcessing/Stage1]
+>
+>dolphinfx/celshading
+>A_EDGE_STRENGTH=1
+>B_EDGE_FILTER=0.6
+>C_EDGE_THICKNESS=1.75
+>D_PALETTE_TYPE=1
+>E_YUV_LUMA=0
+>G_COLOR_ROUNDING=1
 
 ### CCCalibrator
    
